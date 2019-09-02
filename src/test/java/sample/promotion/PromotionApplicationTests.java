@@ -1,4 +1,4 @@
-package mike.promotion;
+package sample.promotion;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;

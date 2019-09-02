@@ -1,8 +1,8 @@
-package mike.promotion.domain;
+package sample.promotion.domain;
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
 import lombok.Data;
-import mike.promotion.enumeration.PromoStatus;
+import sample.promotion.enumeration.PromoStatus;
 import org.hibernate.annotations.CreationTimestamp;
 
 import javax.persistence.Entity;

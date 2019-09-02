@@ -1,8 +1,8 @@
-package mike.promotion.controller;
+package sample.promotion.controller;
 import io.swagger.annotations.ApiParam;
-import mike.promotion.domain.GetPromoOfferResponse;
-import mike.promotion.domain.Promotion;
-import mike.promotion.service.PromoService;
+import sample.promotion.domain.GetPromoOfferResponse;
+import sample.promotion.domain.Promotion;
+import sample.promotion.service.PromoService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 

@@ -1,6 +1,6 @@
-package mike.promotion;
+package sample.promotion;
 
-import mike.promotion.config.AppConfig;
+import sample.promotion.config.AppConfig;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;

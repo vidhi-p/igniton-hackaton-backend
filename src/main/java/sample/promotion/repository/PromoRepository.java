@@ -1,6 +1,6 @@
-package mike.promotion.repository;
+package sample.promotion.repository;
 
-import mike.promotion.domain.Promotion;
+import sample.promotion.domain.Promotion;
 import org.springframework.data.repository.CrudRepository;
 
 public interface PromoRepository extends CrudRepository<Promotion, String> {

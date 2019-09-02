@@ -1,4 +1,4 @@
-package mike.promotion.domain;
+package sample.promotion.domain;
 
 import lombok.Data;
 

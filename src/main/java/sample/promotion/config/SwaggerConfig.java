@@ -1,4 +1,4 @@
-package mike.promotion.config;
+package sample.promotion.config;
 
 import com.google.common.base.Predicate;
 import org.springframework.context.annotation.Bean;

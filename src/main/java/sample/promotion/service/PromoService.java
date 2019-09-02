@@ -1,8 +1,8 @@
-package mike.promotion.service;
+package sample.promotion.service;
 
-import mike.promotion.domain.GetPromoOfferResponse;
-import mike.promotion.domain.Promotion;
-import mike.promotion.repository.PromoRepository;
+import sample.promotion.domain.GetPromoOfferResponse;
+import sample.promotion.domain.Promotion;
+import sample.promotion.repository.PromoRepository;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;

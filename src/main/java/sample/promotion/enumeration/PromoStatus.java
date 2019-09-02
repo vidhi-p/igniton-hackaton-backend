@@ -1,4 +1,4 @@
-package mike.promotion.enumeration;
+package sample.promotion.enumeration;
 
 public enum PromoStatus {
     ACTIVE,
