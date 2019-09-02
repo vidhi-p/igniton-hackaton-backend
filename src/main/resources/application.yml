@@ -1,0 +1,33 @@
+app: #Use app to print out useful info on startup in MainConfig.java
+  name: promo #name of your application, prepended token to all outgoing endpoints. use snake-case
+  profiles: ${spring.profiles.active}
+
+spring:
+  application:
+    name: ${app.name}
+  profiles:
+    active: dev-h2
+
+logging:
+  level:
+    root: info
+---
+### PROFILE:  dev
+### USEAGE:   when developing 2   code on a local
+###           machine. It should not connect to
+###           any servers.
+
+spring:
+  profiles: dev-h2
+  datasource:
+    url: jdbc:h2:mem:testdb;DB_CLOSE_DELAY=-1;DB_CLOSE_ON_EXIT=FALSE
+    username: sa
+    password:
+    driver-class-name: org.h2.Driver
+    platform: h2
+  h2:
+    console:
+      enabled: true
+      path: /h2-console
+
+---
